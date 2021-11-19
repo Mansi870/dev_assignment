@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="color: blue;font-size:50px; margin-left: 450px;"> ASSIGNMENT</h2>
+    <div> <p id="ree">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quisquam iusto beatae possimus, qui molestiae fugit fugiat sit quaerat reprehenderit aliquid recusandae consequatur sequi accusantium officia, nisi odit debitis unde perferendis consectetur ullam! Rem expedita nulla totam earum inventore facere amet ad quam harum qui ullam eum, ea neque! Dignissimos minus officia placeat facere! Eum, excepturi!</p></div>
+    
+
+    <div class="container">
+        <div class="btn" onclick="red()"><a href="#"><h2>RED</h2></a></div>
+        <div class="btn"onclick="green()"><a href="#"><h2>GREEN</h2></a></div>
+        <div class="btn" onclick="blue()"><a href="#"><h2>BLUE</h2></a></div>
+        <div class="btn" onclick="increaseFontSizeBy10px()"><a href="#"><h2>10px</h2></a></div>
+        <div class="btn" onclick="increaseFontSizeBy20px()()"><a href="#"><h2>20px</h2></a></div>
+        <div class="btn" onclick="increaseFontSizeBy30px()()"><a href="#"><h2>30px</h2></a></div>
+        <div class="btn" onclick="display()"><a href="#"><h2>UBUNTU</h2></a></div>
+        <div class="btn" onclick="display1()"><a href="#"><h2>VERDANA</h2></a></div>
+        <div class="btn" onclick="display2()"><a href="#"><h2>CURSIVE</h2></a></div>
+        <!-- <div class="btn"><a href="#">BLUE</a></div> -->
+
+    </div>
+    <div class="box"> </div>
+    <script> 
+    function red(){
+        document.getElementById("ree").style.color = "red";
+    }
+    function green(){
+      document.getElementById("ree").style.color = "green";
+    }
+    function blue(){
+        document.getElementById("ree").style.color = "blue";
+    }
+    function increaseFontSizeBy10px() {
+        document.getElementById('ree').style.fontSize = "10px";
+    }
+    function increaseFontSizeBy20px() {
+        document.getElementById('ree').style.fontSize = "20px";
+    }
+    function increaseFontSizeBy30px() {
+        document.getElementById('ree').style.fontSize = "30px";
+    }
+    function display() {
+        document.getElementById("ree").style.fontFamily = "Ubuntu,sans-serif";
+    }
+    function display1() {
+        document.getElementById("ree").style.fontFamily = "verdana,sans-serif";
+    }
+    function display2() {
+       document.getElementById("ree").style.fontFamily = "Cursive,sans-serif";
+    }
+    </script>
+   
+</body>
+</html>
